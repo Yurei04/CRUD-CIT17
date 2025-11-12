@@ -1,0 +1,12 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "crud_db";
+
+$conn = new mysqli("localhost", "root", "", "crud_db");
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
